@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phase 5 - Blogging Platform Documentation</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f7f9fc;
+      color: #222;
+      line-height: 1.7;
+      margin: 40px;
+    }
+    h1 {
+      color: #0056b3;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+      font-size: 26px;
+    }
+    h2 {
+      color: #0a3d62;
+      margin-top: 30px;
+      font-size: 22px;
+    }
+    p {
+      margin-left: 20px;
+      font-size: 16px;
+    }
+    ul {
+      margin-left: 40px;
+    }
+    .section {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 25px;
+    }
+    .highlight {
+      color: #0078d7;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 15px;
+      background: #0056b3;
+      color: white;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Phase 5 — Project Demonstration & Documentation</h1>
+
+  <div class="section">
+    <h2>Final Demo Walkthrough</h2>
+    <p>The final demo showcases the <span class="highlight">Blogging Platform</span> in action — covering post creation, editing, commenting, and real-time updates. It demonstrates user authentication and secure data handling between frontend and backend.</p>
+  </div>
+
+  <div class="section">
+    <h2>Project Report</h2>
+    <p>The project report details the complete development lifecycle, tech stack, and architectural design. The application uses:</p>
+    <ul>
+      <li><b>Frontend:</b> React.js, HTML, CSS, JavaScript</li>
+      <li><b>Backend:</b> Node.js, Express.js</li>
+      <li><b>Database:</b> MongoDB Atlas</li>
+      <li><b>Hosting:</b> Vercel / Netlify</li>
+      <li><b>Version Control:</b> GitHub</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Screenshots / API Documentation</h2>
+    <p>Includes detailed screenshots for each module and REST API documentation using Swagger or Postman:</p>
+    <ul>
+      <li><code>POST /api/auth/login</code> – User Authentication</li>
+      <li><code>GET /api/posts</code> – Fetch All Blog Posts</li>
+      <li><code>POST /api/posts</code> – Create a New Blog Post</li>
+      <li><code>PUT /api/posts/:id</code> – Edit an Existing Blog Post</li>
+      <li><code>DELETE /api/posts/:id</code> – Delete a Blog Post</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Challenges & Solutions</h2>
+    <ul>
+      <li><b>Challenge:</b> Managing complex state across pages. <b>Solution:</b> Implemented Redux for state management.</li>
+      <li><b>Challenge:</b> Secure user authentication. <b>Solution:</b> Used JWT tokens and bcrypt encryption.</li>
+      <li><b>Challenge:</b> Responsive design issues. <b>Solution:</b> Applied CSS Flexbox and Grid layout.</li>
+      <li><b>Challenge:</b> Slow API response. <b>Solution:</b> Optimized queries and caching mechanisms.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>GitHub README & Setup Guide</h2>
+    <p>README includes instructions for setup and contribution:</p>
+    <ul>
+      <li>Clone repo → <code>git clone https://github.com/yourusername/blogging-platform</code></li>
+      <li>Install dependencies → <code>npm install</code></li>
+      <li>Set up <code>.env</code> file for MongoDB & JWT keys</li>
+      <li>Run app locally → <code>npm start</code></li>
+      <li>Deployed link hosted on Netlify or Vercel</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Final Submission (Repo + Deployed Link)</h2>
+    <p>Submitted project includes GitHub repository, documentation, and deployed link. The platform delivers a smooth, secure, and responsive blogging experience across devices.</p>
+  </div>
+
+  <footer>
+    Blogging Platform | Developed by Team Innovators © 2025
+  </footer>
+</body>
+</html>
